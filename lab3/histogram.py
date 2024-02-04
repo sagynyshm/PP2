@@ -2,7 +2,7 @@ def histogram(list):
     for i in list:
         for j in range(i):
             print("*", end="")
-    print()
+        print()
 
 my_list=list(map(int, input().split()))
-histogram(mu_list)
+histogram(my_list)
